@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f27e"
+    tools:context=".MainActivity">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Welcome To The Quiz"
+      android:layout_centerInParent="true"
+      android:textSize="40sp"
+      android:textStyle="italic"
+      android:textColor="@color/black"
+      android:id="@+id/txtwelcome"       />
+
+    <Button
+        android:id="@+id/startquiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#eb3f3f"
+        android:text="Click here to Start the Game"
+        app:backgroundTint="#eb3f3f" />
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f27e"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/finalscore"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_above="@+id/playagain"
+        android:paddingVertical="10sp"
+        android:layout_marginBottom="100dp"
+        android:background="#B3D8E8" />
+
+    <Button
+        android:id="@+id/playagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Play Again?"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#E6BDBD"
+        android:onClick="again"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/playagain"
+        android:text="Exit"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:backgroundTint="#E6BDBD"
+        android:onClick="exitGame"/>
+
+
+</RelativeLayout>
